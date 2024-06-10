@@ -27,21 +27,22 @@ html {
 }
 
 .icon-scroll .icon-up svg,
-.icon-scroll .icon-down svg{
+.icon-scroll .icon-down svg {
     width: 20px;
-    height: 20px;  
+    height: 20px;
 }
 
 .icon-scroll .icon-up,
 .icon-scroll .icon-down {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     background-color: #106CA7;
     border-radius: 20px;
     padding: 10px;
     fill: white;
     min-width: 80px;
+    user-select: none;
 }
 
 .icon-scroll .icon-up:hover,
