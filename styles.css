@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
 .main-content {
     max-width: 800px;
     margin: 0 auto;
@@ -18,7 +22,7 @@
 
 /* ------------------ */
 
-.icon-scroll .icon-up{
+.icon-scroll .icon-up {
     margin-right: 5px;
 }
 
@@ -38,8 +42,8 @@
     background-color: #007BC7;
 }
 
-.inactive-icon{
-    background-color: #106CA7!important;
+.inactive-icon {
+    background-color: #106CA7 !important;
     opacity: 0.6;
-    cursor: default!important;
+    cursor: default !important;
 }
