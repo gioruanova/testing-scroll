@@ -39,7 +39,7 @@ $(document).ready(function() {
     let scrollInterval;
 
     function startScrolling(direction) {
-        let step = 10; // Number of pixels to scroll in each step
+        let step = 100; // Number of pixels to scroll in each step
         scrollInterval = setInterval(function() {
             let scrollTop = $(window).scrollTop();
             if (direction === 'up') {
