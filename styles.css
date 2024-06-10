@@ -1,0 +1,42 @@
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 2200px;
+}
+
+
+.icon-scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+}
+
+
+/* ------------------ */
+
+.icon-scroll .icon-up{
+    margin-right: 5px;
+}
+
+.icon-scroll .icon-up,
+.icon-scroll .icon-down {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #106CA7;
+    border-radius: 100%;
+    padding: 10px;
+    fill: white;
+}
+
+.icon-scroll .icon-up:hover,
+.icon-scroll .icon-down:hover {
+    background-color: #007BC7;
+}
+
+.inactive-icon{
+    background-color: #106CA7!important;
+    opacity: 0.6;
+    cursor: default!important;
+}
