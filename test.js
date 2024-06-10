@@ -39,14 +39,15 @@ $(document).ready(function() {
     let scrollInterval;
 
     function startScrolling(direction) {
+        let step = 10; // Number of pixels to scroll in each step
         scrollInterval = setInterval(function() {
             let scrollTop = $(window).scrollTop();
             if (direction === 'up') {
-                $('html, body').scrollTop(scrollTop - 20);
+                $('html, body').scrollTop(scrollTop - step);
             } else if (direction === 'down') {
-                $('html, body').scrollTop(scrollTop + 20);
+                $('html, body').scrollTop(scrollTop + step);
             }
-        }, 10);
+        }, 10); // Adjust the smoothness
     }
 
     function stopScrolling() {
