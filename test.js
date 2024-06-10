@@ -53,15 +53,17 @@ $(document).ready(function() {
         clearInterval(scrollInterval);
     }
 
-    $('.icon-up').on('mousedown', function() {
+    // Bind events for scrolling up
+    $('.icon-up').on('mousedown touchstart', function() {
         startScrolling('up');
-    }).on('mouseup mouseleave', function() {
+    }).on('mouseup mouseleave touchend touchcancel', function() {
         stopScrolling();
     });
 
-    $('.icon-down').on('mousedown', function() {
+    // Bind events for scrolling down
+    $('.icon-down').on('mousedown touchstart', function() {
         startScrolling('down');
-    }).on('mouseup mouseleave', function() {
+    }).on('mouseup mouseleave touchend touchcancel', function() {
         stopScrolling();
     });
 });

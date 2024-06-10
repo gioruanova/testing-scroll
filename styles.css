@@ -2,6 +2,9 @@
     max-width: 800px;
     margin: 0 auto;
     min-height: 2200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
