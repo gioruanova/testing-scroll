@@ -42,9 +42,9 @@ $(document).ready(function() {
         scrollInterval = setInterval(function() {
             let scrollTop = $(window).scrollTop();
             if (direction === 'up') {
-                $('html, body').scrollTop(scrollTop - 10);
+                $('html, body').scrollTop(scrollTop - 20);
             } else if (direction === 'down') {
-                $('html, body').scrollTop(scrollTop + 10);
+                $('html, body').scrollTop(scrollTop + 20);
             }
         }, 10);
     }
